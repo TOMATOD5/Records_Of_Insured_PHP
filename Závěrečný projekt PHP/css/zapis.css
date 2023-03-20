@@ -1,0 +1,121 @@
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+
+p{
+  color: rgb(255, 255, 255);
+  font-family: 'Work Sans', sans-serif;
+}
+
+.button {
+  transition: all 0.5s;
+  font-size: 17px;
+  background-color: white;
+  color: #000;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
+  4px 4px 0px hsl(0, 0%, 80%),
+  6px 6px 0px hsl(0, 0%, 70%),
+  8px 8px 0px hsl(0, 0%, 60%),
+  10px 10px 0px hsl(0, 0%, 50%),
+  12px 12px 0px hsl(0, 0%, 40%),
+  14px 14px 0px hsl(0, 0%, 30%),
+  16px 16px 0px hsl(0, 0%, 20%),
+  18px 18px 0px hsl(0, 0%, 10%);
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 50%);
+  color: #fff;
+  box-shadow: none;
+}
+
+input[type="date"] {
+  background: transparent;
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
+.previous-button {
+  position: fixed;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 15px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+  text-decoration: none;
+}

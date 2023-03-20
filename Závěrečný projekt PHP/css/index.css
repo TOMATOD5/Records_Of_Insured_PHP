@@ -1,0 +1,49 @@
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    height: 270px;
+    padding: 35px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 15px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+
+.nadpis{
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+
+a{
+    color: rgb(167, 167, 167);
+    font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,40 @@
+.list-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+th{
+    color: rgb(180, 180, 180);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(55, 55, 55);
+  }
+
+  .previous-button {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 135px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+  }
